@@ -1,0 +1,497 @@
+/* Todas las paginas */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Anybody', cursive;
+    font-family: 'Patrick Hand', cursive;
+}
+
+body{
+    background-color: #E5E5E5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23E5E5E5' stroke-width='0.2' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='rotate(141 1000 750) scale(24.4) translate(-959.02 -719.26)'%3E%3Cuse fill='%23e3e3e3' href='%23s' y='2'/%3E%3Cuse fill='%23e3e3e3' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23e0e0e0' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23e0e0e0' href='%23s'/%3E%3Cuse fill='%23dedede' href='%23s' x='2'/%3E%3Cuse fill='%23dedede' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='rotate(141 1000 750) scale(24.4) translate(-959.02 -719.26)'%3E%3Cg fill='%23dcdcdc'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='rotate(141 1000 750) scale(24.4) translate(-959.02 -719.26)'%3E%3Cg fill='%23dcdcdc'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='rotate(141 1000 750) scale(24.4) translate(-959.02 -719.26)'%3E%3Cg fill='%23d9d9d9'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='rotate(141 1000 750) scale(24.4) translate(-959.02 -719.26)'%3E%3Cg fill='%23E5E5E5'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23d7d7d7'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='rotate(141 1000 750) scale(24.4) translate(-959.02 -719.26)'%3E%3Cg fill='%238DED9A'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='rotate(141 1000 750) scale(24.4) translate(-959.02 -719.26)'%3E%3Cg fill='%238DED9A'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='rotate(141 1000 750) scale(24.4) translate(-959.02 -719.26)'%3E%3Cg fill='%238DED9A'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+}
+
+h1{font-size: 3em;}
+h2{font-size: 2,5em;}
+li{font-size: 0,5em; border-radius: 10px; padding: 0px;background-image: linear-gradient( 135deg, #F0FF00 10%, #58CFFB 100%);}
+
+.grid1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(12, 54, 33);
+    padding: 5px; 
+ }
+
+ .grid2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;    
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(12, 54, 33);
+    padding: 8px; 
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    padding: 5px;
+    list-style: none;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, 6d7bb9, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6d7bb9, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
+.navigation a {
+    
+    text-decoration: none;
+    padding: 1em 1em;
+    color: rgb(12, 54, 33); 
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header a:hover{
+    color: rgb(21, 169, 228);
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(12, 54, 33);
+}
+
+.sticky{
+    position: static; top: 0px;
+}
+
+/*index.html*/
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 73vh;  
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagen/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: larger;
+}
+
+/*------------------------------*/
+
+
+.inicio2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 75vh;  
+    color: rgb(26, 23, 23);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagen/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: larger;
+}
+
+/*historia.html*/
+
+.container2{
+    display:grid;
+    grid-template-columns:repeat(3,auto);
+    grid-gap:10px;
+    padding:10px;
+    color: white;
+    margin:auto;
+    text-align: center;
+}
+
+#historia .carta{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(7, 85, 59, 0.5),
+        rgb(131, 96, 195, 0.75)
+    )
+    ,url("../imagen/historia/nuestros-comienzos.png");
+
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(7, 85, 59, 0.5),
+        rgb(131, 96, 195, 0.75)
+    )
+    ,url("../imagen/historia/2015.png");
+    
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(7, 85, 59, 0.5),
+        rgb(131, 96, 195, 0.75)
+    )
+    ,url("../imagen/historia/2016.png");
+    
+} 
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(7, 85, 59, 0.5),
+        rgb(131, 96, 195, 0.75)
+    )
+    ,url("../imagen/historia/2019.png");
+    
+}
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(7, 85, 59, 0.5),
+        rgb(131, 96, 195, 0.75)
+    )
+    ,url("../imagen/historia/2020.png");
+    
+}
+.carta:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(7, 85, 59, 0.5),
+        rgb(131, 96, 195, 0.75)
+    )
+    ,url("../imagen/historia/2022.png");
+    
+}
+.carta:nth-child(8){
+    background-image: linear-gradient(
+        0deg,
+        rgba(7, 85, 59, 0.5),
+        rgb(131, 96, 195, 0.75)
+    )
+    ,url("../imagen/historia/futuro.png");
+    
+}
+
+/* Cortes Responsive */
+    
+@media all and (max-width: 1024px) {
+    .grid2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background: #8360c3;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, 6d7bb9, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #548e9c, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+    form, .contact{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width:auto;
+        height: fit-content;
+        padding:1px;
+    }
+    .inicio5{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 1150px;  
+        color: rgb(26, 23, 23);
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../imagen/fondo6.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:local;
+        font-size: larger;
+    }
+   .container3 {
+        width: 100%;
+        max-width: 1024px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        overflow: scroll;
+      }
+      .container3 h2{
+        font-weight: 600;
+        color: white;
+    }
+  }
+  
+@media all and (max-width: 768px) {
+    .grid2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      background: #8360c3;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, 6d7bb9, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    ul{
+        list-style: none;
+    }
+    header .grid2 { 
+      text-align: center; 
+      padding: 10px;      
+    }
+    .container{
+        margin: auto;
+        width: auto;
+        max-width: auto;
+        overflow-wrap: normal;
+    }
+    .inicio{
+        height: 90vh;
+    }
+    .sticky{
+        position: static; top: 0px;
+    }
+   .container2{
+        display:grid;
+        grid-template-columns:repeat(1,auto);
+        grid-gap:10px;
+        padding:60px;
+        color: white;
+        margin:auto;
+        text-align: center;
+        width: 100%;
+        max-width: 768px;
+        height: auto;     
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .inicio3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 60vh;  
+        color: rgb(26, 23, 23);
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../imagen/fondo3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        font-size: larger;              
+    }
+    .carta:nth-child(7){
+        display: none;
+    }
+    .inicio5{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 1150px;  
+        color: rgb(26, 23, 23);
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../imagen/fondo6.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment:local;
+        font-size: larger;
+    }
+   .container3 {
+        width: 100%;
+        max-width: 768px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        overflow: scroll;
+      }
+      .container3 h2{
+        font-weight: 600;
+        color: white;
+    }
+}
+
+
+
+
+
+/* Nosotros.html */
+
+.inicio3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 75vh;  
+    color: rgb(26, 23, 23);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagen/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: larger;
+}
+
+
+/* Productos*/
+
+.inicio5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 1000px;  
+    color: rgb(26, 23, 23);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagen/fondo6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    font-size: larger;
+}
+
+.container3 {    
+    width: 100%;
+    max-width: 1100px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    
+  }
+  
+  .card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 350px;
+    height: 450px;
+    border: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 2px rgba(0,0,0,0.5);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.2s;
+}
+.container3 .card2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 10px 8px rgba(0,0,0,0.5);
+}
+
+.card2 img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 300px;
+    height: 350x;
+}
+
+.container3 h2{
+    font-weight: 600;
+    color: white;
+}
+.container3 .card2 h4{
+    font-weight: 600;
+    color: white;
+}
+.container3 .card2 p{
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0,1rem;
+    color: white;
+}
